@@ -13,7 +13,7 @@ Useful for **anonymizing project files before sharing them publicly**, **scrubbi
 
 ## Screenshot
 
-> _Add a screenshot of the GUI here once you take one — drop a PNG into the repo and reference it as `![GUI](docs/gui.png)`._
+![Revit History Patcher GUI](docs/gui.png)
 
 ---
 

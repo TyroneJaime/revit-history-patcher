@@ -15,7 +15,7 @@ import patcher
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("RVT History Patcher")
+        self.title("Revit History Patcher")
         self.resizable(False, False)
         self._build_ui()
 
