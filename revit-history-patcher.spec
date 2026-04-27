@@ -1,7 +1,7 @@
 # PyInstaller spec for the RVT History Patcher GUI.
 #
-# Build with:  pyinstaller rvt-history-patcher.spec
-# Output:      dist/rvt-history-patcher.exe (single self-contained binary)
+# Build with:  pyinstaller revit-history-patcher.spec
+# Output:      dist/revit-history-patcher.exe (single self-contained binary)
 
 # -*- mode: python ; coding: utf-8 -*-
 
@@ -39,7 +39,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='rvt-history-patcher',
+    name='revit-history-patcher',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

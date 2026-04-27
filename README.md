@@ -48,8 +48,8 @@ Hex-editing the names directly **doesn't work** — Revit protects the history s
 Requires **Windows** (the OLE write-back uses `pywin32`) and **Python 3.10+**.
 
 ```bash
-git clone https://github.com/TyroneJaime/rvt-history-patcher.git
-cd rvt-history-patcher
+git clone https://github.com/TyroneJaime/revit-history-patcher.git
+cd revit-history-patcher
 pip install -r requirements.txt
 ```
 
@@ -110,10 +110,10 @@ If you want to ship the GUI to non-Python users, PyInstaller produces a single e
 
 ```bash
 pip install pyinstaller
-pyinstaller rvt-history-patcher.spec
+pyinstaller revit-history-patcher.spec
 ```
 
-The output `dist/rvt-history-patcher.exe` is fully self-contained — no Python install required on the target machine.
+The output `dist/revit-history-patcher.exe` is fully self-contained — no Python install required on the target machine.
 
 ---
 
@@ -177,7 +177,7 @@ The `slack` field encodes how many padding bits sit between the end of the paylo
 | `patcher.py` | Core patching API: stream I/O, gzip handling, ECC recovery and regeneration |
 | `gui.py` | Tkinter GUI front-end |
 | `cli.py` | Command-line front-end |
-| `rvt-history-patcher.spec` | PyInstaller config for building a standalone `.exe` |
+| `revit-history-patcher.spec` | PyInstaller config for building a standalone `.exe` |
 | `requirements.txt` | Python dependencies |
 
 ---

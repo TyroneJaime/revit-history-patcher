@@ -54,7 +54,7 @@ def _cmd_patch(args: argparse.Namespace) -> int:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        prog="rvt-history-patcher",
+        prog="revit-history-patcher",
         description="Patch save-history usernames inside Revit .rvt files.",
     )
     sub = parser.add_subparsers(dest="cmd", required=True)
