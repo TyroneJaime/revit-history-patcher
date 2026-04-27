@@ -48,7 +48,7 @@ Hex-editing the names directly **doesn't work** — Revit protects the history s
 Requires **Windows** (the OLE write-back uses `pywin32`) and **Python 3.10+**.
 
 ```bash
-git clone https://github.com/YOUR-USER/rvt-history-patcher.git
+git clone https://github.com/TyroneJaime/rvt-history-patcher.git
 cd rvt-history-patcher
 pip install -r requirements.txt
 ```
